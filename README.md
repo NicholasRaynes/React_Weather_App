@@ -4,3 +4,4 @@ A weather app where a user can enter a city name and then it displays the data r
 **Technologies Used:**
 - React Hooks
 - Components
+- Props
