@@ -7,3 +7,4 @@ A weather app where a user can enter a city name and then it displays the data r
 - Props
 - useState()
 - Fetch API
+- HTML Input
