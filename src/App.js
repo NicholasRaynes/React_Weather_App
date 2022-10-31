@@ -1,4 +1,5 @@
 import "./styles.css";
+import React, { useState } from "react";
 
 const api = {
   key: "b7214983211ca378df507c10506cbac8",
@@ -6,6 +7,17 @@ const api = {
 };
 
 export default function App() {
+  
+  const [query, setQuery] = useState("");
+  const [weather, setWeather] = useState({});
+
+  const search = (event) => {
+    if (event.key === "Enter") {
+      fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
+        .then((res) => res.json())
+        .then((result) => setWeather(result));
+    }
+  };
   
    const dateBuilder = (d) => {
     let months = [
