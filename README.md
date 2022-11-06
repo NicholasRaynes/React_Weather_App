@@ -1,6 +1,8 @@
 # React_Weather_App
 A weather app where a user can enter a city name and then it displays the data related to the weather of the city through an external API.
 
+App: https://codesandbox.io/s/react-weather-application-9fkl9e
+
 **Technologies Used:**
 - React Hooks
 - Components
