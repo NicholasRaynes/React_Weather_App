@@ -1,3 +1,11 @@
+/*
+ *  React Weather Application
+ *  Name: Nicholas Raynes
+ *  Date: November 6th 2022
+ *  Description: A weather app where a user can enter a city name and then it
+ *  displays the data related to the weather of the city through an external API.
+ */
+
 import "./styles.css";
 import React, { useState } from "react";
 
