@@ -1,3 +1,11 @@
+/*
+ *  React Weather Application
+ *  Name: Nicholas Raynes
+ *  Date: November 7th 2022
+ *  Description: The CSS for a weather app where a user can enter a city name and then it
+ *  displays the data related to the weather of the city through an external API.
+ */
+
 * {
   margin: 0;
   padding: 0;
