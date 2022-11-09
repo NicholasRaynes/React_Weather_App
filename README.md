@@ -7,7 +7,7 @@ App: https://codesandbox.io/s/react-weather-application-9fkl9e
 - React Hooks
 - Components
 - Props
-- useState()
+- useState() Hook
 - Fetch API
 - HTML Input
 
